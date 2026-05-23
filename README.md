@@ -2,7 +2,7 @@
 
 Project Quarm / EverQuest custom UI skin for Rangers.
 
-The playable package is in `UIFiles/TheBestRanger`. It is based on the local `NillipussUI_1080p` Project Quarm UI folder, with the missing default XML files added so the package is self-contained. The Ranger theme starts with dark moss window backgrounds and custom Ranger class art textures.
+The playable package is in `UIFiles/TheBestRanger`. It uses a complete Project Quarm UI file set, with the missing default XML files added so the package is self-contained. The Ranger theme starts with dark moss window backgrounds and custom Ranger class art textures.
 
 ## Install
 
@@ -13,8 +13,8 @@ The playable package is in `UIFiles/TheBestRanger`. It is based on the local `Ni
 ## Contents
 
 - `UIFiles/TheBestRanger/EQUI.xml` - root include manifest copied from the Project Quarm default UI.
-- `UIFiles/TheBestRanger/EQUI_*.xml` - Nillipuss UI XML plus default fallback XML files needed by the manifest.
-- `UIFiles/TheBestRanger/*.tga` - Nillipuss UI art plus generated Ranger forest textures and class art.
+- `UIFiles/TheBestRanger/EQUI_*.xml` - Project Quarm UI XML plus default fallback XML files needed by the manifest.
+- `UIFiles/TheBestRanger/*.tga` - UI art plus generated Ranger forest textures and class art.
 - `dist/TheBestRanger.zip` - ready-to-copy zip package.
 - `tools/generate-ranger-assets.ps1` - rebuilds the TGA files from source.
 - `docs/project-quarm-ui-notes.md` - notes on how the XML and image files work together.

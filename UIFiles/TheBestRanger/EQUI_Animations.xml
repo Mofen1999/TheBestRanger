@@ -5220,7 +5220,7 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
-  <!-- Nillipuss Guage rework -->
+  <!-- Gauge rework -->
   <Ui2DAnimation item="A_SpellFill">
     <Cycle>true</Cycle>
     <Frames>
@@ -5259,7 +5259,7 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
-  <!-- Nillipuss color backgrounds -->
+  <!-- Color backgrounds -->
   <Ui2DAnimation item="Nill_HP_BG">
     <Cycle>true</Cycle>
     <Frames>
@@ -5336,7 +5336,7 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
-  <!-- Nillipuss CastsSpellWindow background -->
+  <!-- CastSpellWindow background -->
   <Ui2DAnimation item="NilliSpellBG">
     <Cycle>true</Cycle>
     <Frames>

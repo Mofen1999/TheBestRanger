@@ -109,7 +109,7 @@
       <Duration>1000</Duration>
     </Frames>
   </Ui2DAnimation>
-  <!-- Nillipuss Color Bar start -->
+  <!-- Ranger color bar start -->
   <Gauge item="Player_HP_BG">
     <ScreenID>PlayerHP</ScreenID>
     <Font>2</Font>

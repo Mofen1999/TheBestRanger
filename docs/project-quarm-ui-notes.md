@@ -23,11 +23,11 @@ The XML references images by filename, usually `.tga` and sometimes `.bmp`. The 
 - `ranger01.tga`
 - `ranger02.tga`
 
-Custom UI folders can override art by placing an image with the same filename in the active skin folder. This skin starts from `NillipussUI_1080p`, then overrides the forest background textures and adds generated `ranger01.tga` / `ranger02.tga` files because the Nillipuss animation XML references them but the local folder did not include them.
+Custom UI folders can override art by placing an image with the same filename in the active skin folder. This skin starts from a complete Project Quarm UI file set, then overrides the forest background textures and adds generated `ranger01.tga` / `ranger02.tga` files because the animation XML references those Ranger class art files.
 
 ## Added XML Files
 
-The local `NillipussUI_1080p` folder did not include `EQUI.xml`. It also omitted several files that the Project Quarm default `EQUI.xml` includes. For the repo package, these were copied from `C:\Everquest\Project_Guarm\TAKPv22\uifiles\default`:
+The reference UI folder did not include `EQUI.xml`. It also omitted several files that the Project Quarm default `EQUI.xml` includes. For the repo package, these were copied from `C:\Everquest\Project_Guarm\TAKPv22\uifiles\default`:
 
 - `EQUI.xml`
 - `SIDL.xml`

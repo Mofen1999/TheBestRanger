@@ -1,3 +1,3 @@
 In the theme folder of your choice: 
-Copy and Paste all the files into the main NillipussUI folder. 
+Copy and paste all the files into the main TheBestRanger folder.
 Overwrite existing files.
