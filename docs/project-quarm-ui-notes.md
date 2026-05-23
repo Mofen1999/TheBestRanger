@@ -23,7 +23,9 @@ The XML references images by filename, usually `.tga` and sometimes `.bmp`. The 
 - `ranger01.tga`
 - `ranger02.tga`
 
-Custom UI folders can override art by placing an image with the same filename in the active skin folder. This skin starts from a complete Project Quarm UI file set, then overrides the forest background textures and adds generated `ranger01.tga` / `ranger02.tga` files because the animation XML references those Ranger class art files.
+Custom UI folders can override art by placing an image with the same filename in the active skin folder. This skin starts from a complete Project Quarm UI file set, then applies a dark green tree bark treatment to the UI chrome textures and adds generated `ranger01.tga` / `ranger02.tga` files because the animation XML references those Ranger class art files.
+
+The bark treatment is applied by `tools/apply-bark-theme.ps1`. It preserves image dimensions and alpha while repainting visible pixels with a dark green bark grain. It intentionally targets interface chrome files such as `window_pieces*.tga`, `classic_pieces*.tga`, `wnd_bg_*rock.tga`, `purple*.tga`, `gauges.tga`, `TargetBox.tga`, cursor textures, book backgrounds, and optional theme assets. Spell icons, item icons, and non-Ranger class atlases are left alone for readability.
 
 ## Added XML Files
 
